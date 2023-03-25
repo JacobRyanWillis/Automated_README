@@ -68,6 +68,8 @@ function generateMarkdown(data) {
   const licenseSection = renderLicenseSection(data.license);
 
   return `
+    ${licenseBadge}
+
     # ${data.projectTitle}
 
     ## Description
@@ -93,7 +95,7 @@ function generateMarkdown(data) {
 
     This project is licensed under the ${data.license} license. Click [here](${licenseLink}) for more information.
 
-    ${licenseSection};
+    ${licenseSection}
 
     ## Contributing
     ${data.contributing}
