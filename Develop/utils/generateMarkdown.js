@@ -85,15 +85,15 @@ ${data.installation}
 
 ${data.usage}
 
+## Credits
+
+${data.credits}
+
 ## License
 
 This project is licensed under the ${data.license} license. Click [here](${licenseLink}) for more information.
 
 ${licenseSection}
-
-## Credits
-
-${data.credits}
 
 ## Tests
 
