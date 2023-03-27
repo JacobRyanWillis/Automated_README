@@ -60,43 +60,50 @@ function generateMarkdown(data) {
   const licenseSection = renderLicenseSection(data.license);
 
   return `
-  ${licenseBadge}
+${licenseBadge}
 
-  # ${data.projectTitle}
+# ${data.projectTitle}
 
-  ## Description
-  ${data.description}
+## Description
 
-  ## Table of Contents
+${data.description}
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Table of Contents
 
-  ## Installation
-  ${data.installation}
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Usage
-  ${data.usage}
+## Installation
 
-  ## License
+${data.installation}
 
-  This project is licensed under the ${data.license} license. Click [here](${licenseLink}) for more information.
+## Usage
 
-  ${licenseSection}
+${data.usage}
 
-  ## Contributing
-  ${data.contributing}
+## License
 
-  ## Tests
-  ${data.tests}
+This project is licensed under the ${data.license} license. Click [here](${licenseLink}) for more information.
 
-  ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
-  `;
+${licenseSection}
+
+## Contributing
+
+${data.contributing}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+`;
+
 }
 
 module.exports = generateMarkdown;
