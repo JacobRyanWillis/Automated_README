@@ -23,7 +23,7 @@ You will need to install npm/node.js. https://nodejs.org/en
 ## Usage
 
 Heres a video example of how to use this application <br>
-[![Alt text](https://img.youtube.com/vi/fiMI5cDHfo0/0.jpg)](https://www.youtube.com/watch?v=fiMI5cDHfo0)
+[![Click here to see an example of this application in use](https://img.youtube.com/vi/fiMI5cDHfo0/0.jpg)](https://www.youtube.com/watch?v=fiMI5cDHfo0)
 
 
 
