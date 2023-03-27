@@ -24,6 +24,11 @@ You will need to install npm/node.js. https://nodejs.org/en
 
 I will add these
 
+## Credits
+
+Node.JS: https://nodejs.org/en <br>
+Inquirer: https://www.npmjs.com/package/inquirer <br>
+
 ## License
 
 This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.

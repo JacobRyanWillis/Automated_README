@@ -26,8 +26,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'If you wish for other developers to contribute tell them how they can here:',
+        name: 'credits',
+        message: 'List your collaborators, if any, with links to their GitHub profiles. Also list 3rd party assets.',
     },
     {
         type: 'input',

@@ -91,9 +91,9 @@ This project is licensed under the ${data.license} license. Click [here](${licen
 
 ${licenseSection}
 
-## Contributing
+## Credits
 
-${data.contributing}
+${data.credits}
 
 ## Tests
 
